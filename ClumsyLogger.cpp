@@ -1,6 +1,4 @@
 #include "ClumsyLogger.hpp"
-#include <mutex>
-#include <unistd.h>
 
 ClumsyLogger::ClumsyLogger() {
 	stop = false;
